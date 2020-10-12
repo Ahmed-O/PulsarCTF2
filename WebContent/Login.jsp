@@ -24,6 +24,9 @@
 		<div class="header">
 			<h1 class="col-12 mt-4 mb-4">Pulsar Login</h1>
 		</div>
+		<div>
+			<img class="col-12 mt-4 mb-4" src="https://www.sciencealert.com/images/2020-03/processed/pulsar_topic_1024.jpg" alt="pulsar img">
+		</div>
 	</div>
 	
 	<div class="container">
@@ -51,6 +54,10 @@
 		
 		<form action = "Register.jsp" method = "GET" class = "needs-validation" style = "margin: 10px 0px;">
   			<button id = "clickRegister" type="submit" class = "btn btn-light">Register</button>
+  		</form>
+  		
+  		<form action = "Reset.jsp" method = "GET" class = "needs-validation" style = "margin: 10px 0px;">
+  			<button id = "clickReset" type="submit" class = "btn btn-light">Reset Password</button>
   		</form>
 	</div>
 	

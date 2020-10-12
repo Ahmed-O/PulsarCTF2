@@ -25,6 +25,9 @@
 			<h1 class="col-12 mt-4 mb-4">Pulsar Register</h1>
 			<h2 style = "font-size: 18px;"> Password must be at least 11 characters with one lowercase letter, one uppercase letter, one number, and one special character</h2>
 		</div>
+		<div>
+			<img class="col-12 mt-4 mb-4" src="https://www.sciencealert.com/images/2020-03/processed/pulsar_topic_1024.jpg" alt="pulsar img">
+		</div>
 	</div>
 	
 	<div class="container">

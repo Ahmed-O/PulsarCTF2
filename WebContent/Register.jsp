@@ -28,7 +28,7 @@
 	</div>
 	
 	<div class="container">
-		<form action="Success.jsp" method="GET" class="needs-validation" novalidate>
+		<form action="RegisterValidate.jsp" method="GET" class="needs-validation" novalidate>
 			<div class="row mb-3">
 				<div class="font-italic text-danger col-sm-9 ml-sm-auto">
 				</div>

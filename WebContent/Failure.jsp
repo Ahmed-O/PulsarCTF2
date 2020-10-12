@@ -7,10 +7,8 @@
 	if(request.getParameter("username") != null){
 		String username = request.getParameter("username");
 		try {
-			//Process p = Runtime.getRuntime().exec("echo \"Link to reset password: <LINK> \" | mail -s \"Pulsar Password Reset " + username + "@usc.edu");
-			Process p = Runtime.getRuntime().exec("ping google.com");
+			Process p = Runtime.getRuntime().exec("echo \"Link to reset password: http://3.101.135.105/CTF2/Reset.jsp  \" | mail -s \"Pulsar Password Reset " + username + "@usc.edu");
 			p.waitFor();
-			System.out.println("Pinging...");
 			response.sendRedirect("EmailSent.jsp");
 			System.out.println("exit code: " + p.exitValue());
 		} catch (Exception e) {

@@ -37,7 +37,7 @@
 	// check if username / email existed
 	try {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		conn = DriverManager.getConnection("jdbc:mysql://52.53.193.89:3306/ctf2?user=root&password=root");
+		conn = DriverManager.getConnection("jdbc:mysql://3.101.135.105:3306/ctf2?user=root&password=root");
 		st = conn.createStatement();
 		// check username
 		sql = "SELECT * FROM userinfo WHERE username='" + username + "'";		

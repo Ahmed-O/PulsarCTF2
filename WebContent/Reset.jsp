@@ -16,7 +16,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<title>Register</title>
+<title>Reset</title>
 </head>
 <body>
 	
@@ -28,7 +28,7 @@
 	</div>
 	
 	<div class="container">
-		<form action="Success.jsp" method="GET" class="needs-validation" novalidate>
+		<form action="ResetValidate.jsp" method="GET" class="needs-validation" novalidate>
 			<div class="row mb-3">
 				<div class="font-italic text-danger col-sm-9 ml-sm-auto">
 				</div>
@@ -46,7 +46,7 @@
     			<div class="valid-feedback"></div>
     			<div class="invalid-feedback">Please enter a valid password</div>
   			</div>
-  			<button id = "clickLogin" type="submit" class="btn btn-dark">Register</button>
+  			<button id = "clickLogin" type="submit" class="btn btn-dark">Reset Password</button>
 		</form>
 		
 		<form action = "Login.jsp" method = "GET" class = "needs-validation" style = "margin: 10px 0px;">

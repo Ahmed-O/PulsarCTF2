@@ -50,7 +50,7 @@
 		   		<font color="red"><strong> Going to Fail page now. </strong></font><br />
 		  		<script>
 		  			setTimeout(function(){
-		  				var uri = "/CTF2/Login.jsp";
+		  				var uri = "/CTF2/Fail.jsp";
 				        location.href = uri;
 		  			}, 100);
 		  		</script>
@@ -87,7 +87,7 @@
 		   		<font color="green"><strong> Going to SUCCESS page now. </strong></font><br />
 		  		<script>
 		  			setTimeout(function(){
-		  				var uri = "/CTF2/Login.jsp";
+		  				var uri = "/CTF2/Success.jsp";
 				        location.href = uri;
 		  			}, 100);
 		  		</script>
@@ -99,7 +99,7 @@
 		   		<font color="red"><strong> Going to Fail page now. </strong></font><br />
 		  		<script>
 		  			setTimeout(function(){
-		  				var uri = "/CTF2/Login.jsp";
+		  				var uri = "/CTF2/Fail.jsp";
 				        location.href = uri;
 		  			}, 100);
 		  		</script>
